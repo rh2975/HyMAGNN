@@ -1,0 +1,17 @@
+python train.py `
+  --mode train `
+  --data_path "solar_energy.txt" `
+  --seq_in_len 168 `
+  --horizon 3 `
+  --epochs 100 `
+  --batch_size 4 `
+  --lr 0.001 `
+  --topk 20 `
+  --embed_dim 40 `
+  --conv_channels 32 `
+  --ds 32 `
+  --gcn_depth 4 `
+  --dropout 0.3 `
+  --propalpha 0.05 `
+  --eval_every 5 `
+  --amp
